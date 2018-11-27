@@ -13,6 +13,7 @@ setup(
 
     packages=['tfplugin'],
     install_requires=[
+        'protobuf>=3.6.1',
     ],
     setup_requires=[
         'nose>=1.0',
